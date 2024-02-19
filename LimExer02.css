@@ -21,7 +21,7 @@ h1 {
 	/*background-color: #cbc1d9;*/
 	width: 100%;
 	max-width: 1300px;
-	height: 1300px;
+	height: 2000px;
 	margin: 0 auto;
 	padding: 0;
 	box-sizing: border-box;
@@ -32,11 +32,17 @@ h1 {
 	/*background-color: #749ec0;*/
 	width: 100%;
 	max-width: 1300px;
-	height: 750px;
+	height: 900px;
 	margin: 0 auto;
 	padding: 20px;
 	box-sizing: border-box;
 	display: flex;
+}
+
+.third-container {
+	height: 600px;
+	padding: 40px;
+	margin: 0 auto;
 }
 
 .middle-column,
@@ -130,4 +136,46 @@ h1 {
 	max-height: 100%;
 	display:block;
 	margin: 0 auto;
+}
+
+#pl, #engine, #tags {
+	display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #366890;
+}
+
+#pl {
+	width: 75px;
+    background-color: #f5dce5;
+}
+
+#engine {
+	background-color: #f5eeca;
+	width: 125px;
+}
+
+#tags {
+	background-color: #d3f5db;
+	width: 90px;
+}
+
+.skill-box {
+	background-color: #e8ecf6;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #366890;
+}
+
+#autobiography {
+	background-color: #f6e8ef;
+	margin: 5px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	font-size: 20px;
 }
